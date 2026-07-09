@@ -65,10 +65,12 @@ Votre rapport couvre **cinq axes**. Pour chacun, on attend un constat argumenté
 | Quand | Livrable |
 |---|---|
 | **Séance 4** | Cadrage, audit statique (archi / tests / stack) démarré, trame de rapport remplie en partie |
-| **Séance 5** | Pentest sécurité réalisé, audit croisé avec un autre groupe, **soutenance orale** |
-| **J+7** (une semaine après la séance 5) | **Rapport d'audit écrit final** rendu (voir la trame fournie) |
+| **Séance 5 (en classe)** | **Pentest sécurité réalisé EN SÉANCE**, audit croisé avec un autre groupe, **soutenance orale** |
+| **Vendredi 17 juillet 2026** | **Rapport d'audit écrit final** rendu (voir la trame fournie) |
 
-**Format du rendu écrit :** un document (PDF) suivant la **trame de rapport d'audit** fournie. Anonymisez toute donnée personnelle réelle éventuellement croisée pendant les tests.
+> ⚠️ **Le pentest se fait UNIQUEMENT en séance, en classe.** Aucun test sur eRezo n'est autorisé en dehors du temps de classe. Le rapport rendu le 17 juillet reprend et met au propre **le travail réalisé en cours** — il ne s'appuie sur aucun test mené à la maison.
+
+**Format du rendu écrit :** un document (PDF) suivant la **trame de rapport d'audit** fournie, à remettre le **vendredi 17 juillet 2026**. Anonymisez toute donnée personnelle réelle éventuellement croisée pendant les tests.
 
 ---
 

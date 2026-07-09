@@ -1,7 +1,7 @@
 # Trame de rapport d'audit — eRezo
 
 > **Modèle à remplir par votre groupe.** Remplacez chaque bloc _en italique_ par votre analyse.
-> Le rapport final est rendu en PDF à **J+7**. Soyez concis et factuel : un bon audit tient en 6 à 10 pages.
+> Le rapport final est rendu en PDF le **vendredi 17 juillet 2026**, à partir du travail réalisé **en séance**. Soyez concis et factuel : un bon audit tient en 6 à 10 pages.
 
 ---
 
