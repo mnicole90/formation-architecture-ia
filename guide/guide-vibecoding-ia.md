@@ -53,7 +53,7 @@ h2 { page-break-before: always; }
 
 <div style="padding-top: 55mm; text-align: center; font-family: Arial, sans-serif;">
 
-<p style="color:#4C62FF; font-size:14px; letter-spacing:3px; text-transform:uppercase; margin-bottom:8px;">Année 5 · NoCode / LowCode &amp; IA</p>
+<p style="color:#4C62FF; font-size:14px; letter-spacing:3px; text-transform:uppercase; margin-bottom:8px;">École Decode</p>
 
 <h1 style="color:#222; font-size:56px; font-weight:800; margin:20px 40px 0;">Architecture IA</h1>
 
