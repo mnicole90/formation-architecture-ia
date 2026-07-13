@@ -1,18 +1,18 @@
-# Trame de rapport d'audit — Infrastructure & Sécurité d'eRezo
+# Trame de rapport — Audit d'eRezo & conception de la V2
 
 > **Modèle à remplir par votre société de conseil.** Remplacez chaque bloc _en italique_ par votre analyse.
-> Le rapport final est rendu en PDF le **vendredi 17 juillet 2026**, à partir du travail réalisé **en séance**. Soyez concis et factuel : un bon rapport tient en 5 à 8 pages.
+> Le rapport final est rendu en PDF **en fin de module**, à partir du travail réalisé **en séance**. Soyez concis et factuel : un bon rapport tient en 6 à 10 pages.
 
 ---
 
 ## Page de garde
 
-- **Rapport d'audit :** Infrastructure & Sécurité — eRezo
+- **Rapport :** Audit d'eRezo (infrastructure & sécurité) & recommandations pour la V2
 - **Réalisé par (votre société de conseil) :** _nom de votre société_
 - **Consultant(s) :** _vous, seul ou avec votre associé_
 - **Client :** KodeSaaS — Maxime Nicole (propriétaire d'eRezo)
 - **Date de l'audit :** _date_
-- **Périmètre :** production https://erezo.fr (lecture seule) — infrastructure & sécurité, hors code source
+- **Périmètre :** audit de l'existant sur la production https://erezo.fr (lecture seule) — **infrastructure & sécurité, hors code source** · recommandations d'**architecture pour la V2**
 - **Autorisation de test signée :** _oui / n° annexe_
 
 ---
@@ -22,7 +22,7 @@
 _En 5-8 lignes, pour votre client :_
 - _État général côté infrastructure et sécurité (sain / à surveiller / à risque)_
 - _Les 2-3 points les plus importants_
-- _Votre recommandation principale pour la V2_
+- _Votre recommandation d'architecture principale pour la V2_
 
 **Score de risque global (sécurité) :** _X / 10_
 
@@ -89,28 +89,37 @@ _Listez ce qui résiste. Un bon auditeur note aussi ce qui va bien._
 
 ## 4. Recommandations pour la V2
 
-_Comment reconstruire eRezo, bien hébergé et sécurisé. Pour chaque thème : la bonne pratique et ce que vous recommandez concrètement au client. Vous n'êtes pas obligés d'employer le vocabulaire technique exact._
+_Comment reconstruire eRezo : une V2 bien architecturée, testée, bien hébergée et sécurisée. Pour chaque thème : la bonne pratique, **pourquoi** elle compte, et ce que vous recommandez concrètement au client._
+_Sur les volets A, B et C, **c'est à vous de mobiliser et de nommer** les bons concepts et outils — c'est précisément ce qui est évalué._
 
-**Une infrastructure propre et fiable :**
-_Hébergement, HTTPS partout, séparation dev / production, sauvegardes._
+### A. Architecture & conception
+_Comment structurer la V2. Nommez vous-mêmes les approches que vous recommandez._
+- **Découpage du métier :** _comment vous structureriez les domaines de l'application et leurs frontières._
+- **Séparation cœur métier / infrastructure :** _comment isoler le métier des détails techniques._
+- **Langage du métier :** _comment le code reflète le vocabulaire métier._
+- **Couplage & évolutivité :** _où placer les frontières pour limiter le couplage._
 
-**Une application sécurisée :**
-_Les règles pour éviter précisément les failles trouvées (contrôle des accès, en-têtes de sécurité, configuration, données exposées)._
+### B. Qualité & tests
+- **Stratégie de tests :** _quelle démarche, et à quel moment écrire les tests._
+- **Types & proportions :** _quels niveaux de tests, et ce que vous testez en priorité (cœur métier)._
+- **Intégration continue & conventions :** _comment tenir la qualité dans la durée._
 
-**Une mise en ligne maîtrisée :**
-_Un déploiement propre, ce qui se passe entre « ça marche sur mon poste » et « c'est en production »._
+### C. Un projet fait pour l'IA & reprenable
+- **Outillage IA du dépôt :** _rôle de `CLAUDE.md` / `AGENTS.md` (contexte et règles pour les agents), des **Skills** (compétences réutilisables), du **MCP** (connexion des agents aux outils / données)._
+- **Documentation d'onboarding :** _README, doc d'architecture — le « test du freelance » (< 30 min)._
+- **Reprenabilité & durabilité :** _en quoi ces choix rendent la V2 reprenable._
 
-**Le respect des données des utilisateurs :**
-_Les règles de base sur les données personnelles._
-
-**Un socle fait pour durer _(pour aller plus loin)_ :**
-_Ce qui rend le projet solide et reprenable (organisation, tests, documentation)._
+### D. Infrastructure, sécurité & données
+- **Infrastructure propre :** _hébergement, HTTPS partout, séparation dev / production, sauvegardes._
+- **Application sécurisée :** _règles pour éviter précisément les failles trouvées (accès, en-têtes, config, données exposées)._
+- **Mise en ligne maîtrisée :** _déploiement propre, du poste dev à la production._
+- **Respect des données des utilisateurs :** _règles de base sur les données personnelles._
 
 ---
 
 ## 5. Synthèse des recommandations
 
-_Top 5 des actions à conseiller au client, dans l'ordre où vous lui conseillez de les traiter._
+_Top 5 des actions à conseiller au client, dans l'ordre où vous lui conseillez de les traiter (mêlez sécurité, infra et architecture)._
 
 1. _..._
 2. _..._
@@ -120,6 +129,10 @@ _Top 5 des actions à conseiller au client, dans l'ordre où vous lui conseillez
 
 ---
 
-## Annexe — Audit croisé
+## Annexe A — Méthode & outils IA
+
+_Comment vous avez conduit l'audit et rédigé les recommandations avec l'IA : prompts, agents, MCP, outils. La méthode fait partie de la compétence évaluée._
+
+## Annexe B — Audit croisé
 
 _Commentaires reçus d'une autre société (autre groupe) sur votre rapport (séance 5) et comment vous les intégrez._
