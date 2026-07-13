@@ -129,10 +129,6 @@ _Top 5 des actions à conseiller au client, dans l'ordre où vous lui conseillez
 
 ---
 
-## Annexe A — Méthode & outils IA
+## Annexe — Méthode & outils IA
 
 _Comment vous avez conduit l'audit et rédigé les recommandations avec l'IA : prompts, agents, MCP, outils. La méthode fait partie de la compétence évaluée._
-
-## Annexe B — Audit croisé
-
-_Commentaires reçus d'une autre société (autre groupe) sur votre rapport (séance 5) et comment vous les intégrez._
