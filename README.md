@@ -11,6 +11,8 @@ Ce dépôt regroupe tous les supports du module : le guide de référence, le pr
 
 - **[Guide des bonnes pratiques du vibecoding avec l'IA](guide/guide-vibecoding-ia.pdf)** ([source .md](guide/guide-vibecoding-ia.md))
   Le manuel de référence (~48 pages) : état d'esprit d'architecte, cadrage & DDD, environnement IA (CLAUDE.md, MCP), workflow Git, TDD, déploiement, sécurité & conformité (RGPD/AI Act), bases de données, intégration de l'IA (RAG, OpenRouter…), et une boîte à outils.
+- **[42 techniques pour diviser par 5 sa consommation de tokens](guide/42-techniques-pour-diviser-par-5-sa-consommation-de-tokens.pdf)**
+  8 pages de techniques concrètes pour réduire sa consommation de tokens avec les assistants IA.
 
 ## 🔍 Projet fil rouge — Auditer un SaaS de production & concevoir sa V2
 
