@@ -12,12 +12,12 @@ Ce dépôt regroupe tous les supports du module : le guide de référence, le pr
 - **[Guide des bonnes pratiques du vibecoding avec l'IA](guide/guide-vibecoding-ia.pdf)** ([source .md](guide/guide-vibecoding-ia.md))
   Le manuel de référence (~48 pages) : état d'esprit d'architecte, cadrage & DDD, environnement IA (CLAUDE.md, MCP), workflow Git, TDD, déploiement, sécurité & conformité (RGPD/AI Act), bases de données, intégration de l'IA (RAG, OpenRouter…), et une boîte à outils.
 
-## 🔍 Projet fil rouge — Audit d'infrastructure & de sécurité d'un SaaS
+## 🔍 Projet fil rouge — Auditer un SaaS de production & concevoir sa V2
 
-Vous êtes une société de conseil, votre client est KodeSaaS (propriétaire d'eRezo). Vous auditez son infrastructure et sa sécurité, puis vous recommandez comment construire une V2 propre et sécurisée — sans analyser le code.
+Vous êtes une société de conseil, votre client est KodeSaaS (propriétaire d'eRezo). Vous auditez l'existant (infrastructure & sécurité, sans accès au code), puis vous jouez les architectes : quelles bonnes pratiques d'**architecture, de tests et d'ingénierie** (dont l'outillage IA) mettre en œuvre pour bâtir une V2 propre, testable, bien hébergée et sécurisée.
 
-- **[Brief étudiant](projet-audit-erezo/1-brief-etudiant.pdf)** — la mission d'audit et la grille d'évaluation.
-- **[Trame de rapport d'audit](projet-audit-erezo/2-trame-rapport-audit.pdf)** — le modèle à remplir (rendu final).
+- **[Brief étudiant](projet-audit-erezo/1-brief-etudiant.pdf)** ([source .md](projet-audit-erezo/1-brief-etudiant.md)) — la mission et la grille d'évaluation.
+- **[Trame de rapport d'audit](projet-audit-erezo/2-trame-rapport-audit.pdf)** ([source .md](projet-audit-erezo/2-trame-rapport-audit.md)) — le modèle à remplir (rendu final).
 - **[Protocole de pentest & autorisation](projet-audit-erezo/3-protocole-pentest.pdf)** — les règles et l'autorisation à signer.
 
 ## 🛡️ Atelier — Pentest live
